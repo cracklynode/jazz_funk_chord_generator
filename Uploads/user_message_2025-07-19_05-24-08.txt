@@ -1,0 +1,148 @@
+Jazz Funk Song Chord Progression Creator
+Author: Nick Foard
+
+Purpose / Overview
+The Jazz Funk Song Chord Progression Creator is an application that empowers users to generate authentic Jazz Funk song structures and chord progressions based on a selected emotion or mood (e.g., happy, sad, uplifting, melancholy, upbeat) or by using an existing song as inspiration. By leveraging established Jazz Funk music theory, the app suggests appropriate song structures and chord progressions, ultimately producing a basic lead sheet as output. This tool is designed for musicians, composers, and learners who want to quickly create, experiment with, or study Jazz Funk compositions tailored to a specific emotional vibe or inspired by their favorite songs.
+
+Background / Context
+Jazz Funk is a genre known for its rich harmonies, syncopated rhythms, and expressive chord voicings. Composing in this style can be challenging, especially for those who may not have a deep background in Jazz theory or are looking for inspiration. Most existing tools only provide basic chord names (e.g., Em9) without specifying the actual voicing, the notes used, or the fingering required to achieve the authentic Jazz Funk sound. This often leaves musicians guessing or missing out on the subtle nuances that define the genre.
+
+This application aims to fill that gap by providing a user-friendly way to generate Jazz Funk lead sheets that are both musically authentic and emotionally targeted. By aligning with established music theory and genre conventions—and by explicitly showing the notes and fingerings for each suggested voicing—the tool will help users create more compelling and stylistically accurate Jazz Funk songs, whether for performance, practice, or education.
+
+Objectives / Goals
+The main objectives for the Jazz Funk Song Chord Progression Creator are:
+
+Enable users to generate Jazz Funk song structures and chord progressions tailored to a selected emotion or mood, or inspired by an existing song.
+Ensure all generated progressions and voicings are grounded in authentic Jazz Funk music theory.
+Provide detailed information for each chord, including the specific voicing, the notes used, and the recommended fingering for keyboard or guitar.
+Output a basic lead sheet that users can use for practice, performance, or further composition.
+Make the tool accessible and intuitive for musicians of varying skill levels, from beginners to advanced players.
+Success will be measured by user satisfaction, the musical quality and authenticity of the generated content, and the usefulness of the lead sheets and voicing details for real-world music creation.
+
+Scope
+The initial release of the Jazz Funk Song Chord Progression Creator will include:
+
+The ability for users to select an emotion or mood for their song.
+The ability for users to input the name of a song they like, which the app will use as inspiration.
+Generation of Jazz Funk song structures (e.g., intro, verse, chorus, bridge) based on the selected emotion or inspired by the input song.
+Generation of chord progressions and specific Jazz Funk voicings for each section.
+Display of chord names, the exact notes used in each voicing, and recommended fingerings (keyboard and/or guitar).
+Output of a basic lead sheet showing the song structure, chord progressions, and voicing details.
+A user-friendly interface suitable for musicians at all levels.
+Option to download the generated lead sheet as a PDF.
+Out of scope for the initial release:
+
+Audio playback or MIDI export of the generated progressions.
+Support for instruments beyond keyboard and guitar.
+Advanced editing or customization of individual chord voicings.
+Integration with external DAWs or music notation software.
+Real-time collaboration or sharing features.
+User Stories / Use Cases
+As a musician, I want to select an emotion for my song so that the generated chord progressions and structure match the vibe I’m aiming for.
+
+As a musician, I want to input the name of a song I like so the app can use it as inspiration for generating a new Jazz Funk song structure and progression.
+
+As a keyboard or guitar player, I want to see the exact notes and fingerings for each chord voicing so I can accurately play the suggested progressions.
+
+As a composer, I want to receive a basic lead sheet with song sections and chords so I can use it for practice, performance, or further arrangement.
+
+As a learner, I want to understand how Jazz Funk chord progressions and voicings are constructed so I can improve my own songwriting and playing skills.
+
+Requirements
+Functional Requirements
+
+The app must allow users to select an emotion or mood from a predefined list (e.g., happy, sad, uplifting, melancholy, upbeat).
+The app must allow users to input the name of a song they like, which the app will use as inspiration for generating a Jazz Funk song structure and chord progression.
+The app must generate a Jazz Funk song structure (e.g., intro, verse, chorus, bridge) appropriate to the selected emotion or inspired by the input song.
+The app must generate chord progressions for each section, using authentic Jazz Funk theory and conventions.
+The app must provide specific chord voicings for each chord, not just the chord name.
+The app must display the notes used in each voicing.
+The app must show recommended fingerings for both keyboard and guitar for each chord voicing.
+The app must output a basic lead sheet that includes the song structure, chord progressions, voicings, notes, and fingerings.
+The app must provide an option to download the generated lead sheet as a PDF.
+The app must have an intuitive, user-friendly interface.
+Non-Functional Requirements
+
+The app must be responsive and work on both desktop and tablet devices.
+The app must load and generate results within a few seconds.
+The app must use clear, readable fonts and layouts suitable for musicians.
+The app must ensure accuracy in music theory and chord voicing information.
+The app must store no personal user data (unless future features require it).
+User Flows / Wireframes / Mockups
+The user opens the application and is greeted with a welcome screen.
+The user chooses between two options:
+Select an emotion/mood from a list
+Input the name of a song they like (song inspiration)
+If the user selects an emotion, the app generates a Jazz Funk song structure and chord progression based on that emotion.
+If the user inputs a song name, the app analyzes the song (using available data or stylistic inference) and generates a Jazz Funk-inspired structure and progression.
+For each section, the app displays the chord progression, with each chord showing:
+The chord name
+The specific voicing (notes used)
+Recommended fingerings for keyboard and guitar
+The user reviews the generated lead sheet, which visually lays out the song structure and chords.
+The user has the option to download the lead sheet as a PDF.
+The user can start over or select a new emotion or song inspiration to generate a different song.
+Assumptions
+Users have a basic understanding of music notation and can read lead sheets.
+Users are interested in Jazz Funk or related genres and want authentic-sounding progressions and voicings.
+The app will have access to a database or API for analyzing popular songs when users input a song name for inspiration.
+The app will use established Jazz Funk music theory for generating progressions, voicings, and song structures.
+Fingering recommendations will be based on standard keyboard and guitar techniques.
+The initial user base will primarily use desktop or tablet devices.
+Users will not require advanced editing or customization of generated lead sheets in the initial release.
+Constraints
+The app must only support keyboard and guitar fingerings in the initial release.
+The app must rely on existing music theory and available song data; it will not generate original melodies or lyrics.
+The app must not include audio playback, MIDI export, or DAW integration in the initial release.
+The app must work within the limitations of available song analysis APIs or databases for the “song inspiration” feature.
+The app must be compatible with modern desktop and tablet browsers; mobile optimization is not required for the first version.
+The app must not store or process any personal user data unless required for future features.
+Out of Scope
+Audio Playback/MIDI Export: The application will not provide audio playback of the generated progressions or the ability to export MIDI files.
+Advanced Editing Features: Users will not be able to manually edit or customize individual chord voicings, notes, or song structures within the application.
+Melody/Lyric Generation: The app will focus solely on chord progressions and song structures; it will not generate melodies, lyrics, or full arrangements.
+Integration with External Software: There will be no direct integration with Digital Audio Workstations (DAWs) or other music notation software.
+Real-time Collaboration: Features for multiple users to collaborate on a song in real-time are not included.
+Support for Other Instruments: Fingering recommendations and specific voicings will be limited to keyboard and guitar only.
+Mobile Optimization: While responsive for tablets, full optimization for smartphone screens is not a priority for the initial release.
+User Accounts/Saving: There will be no user accounts or functionality to save generated songs within the application.
+Success Metrics / KPIs
+Number of unique users generating lead sheets within the first 3–6 months.
+Percentage of users who successfully download a lead sheet as a PDF.
+User satisfaction ratings (via optional feedback or survey after generation).
+Positive feedback on the accuracy and usefulness of chord voicings, notes, and fingerings.
+Number of repeat sessions per user (indicating ongoing value).
+Low error rate in chord generation and voicing display.
+Time taken from input (emotion or song) to lead sheet generation (target: under 10 seconds).
+Timeline / Milestones
+Phase 1: Requirements & Design (Weeks 1–2)
+Finalize PRD, gather reference material on Jazz Funk theory, and sketch initial wireframes.
+
+Phase 2: Core Development (Weeks 3–6)
+Develop the emotion/song input, song structure and chord progression generator, and voicing/fingering display.
+
+Phase 3: Lead Sheet Output & PDF Export (Weeks 7–8)
+Implement lead sheet formatting and PDF download functionality.
+
+Phase 4: UI/UX Polish & Testing (Weeks 9–10)
+Refine the interface, conduct user testing, and fix bugs.
+
+Phase 5: Launch & Feedback (Week 11)
+Release the MVP, collect user feedback, and plan for future improvements.
+
+Stakeholders / Owners
+Product Owner / Visionary: Nick Foard
+Development Lead: [To be assigned]
+UI/UX Designer: [To be assigned]
+Music Theory Consultant: [To be assigned]
+QA / Testing: [To be assigned]
+End Users: Musicians, composers, learners interested in Jazz Funk
+Open Questions / Risks
+Song Inspiration Data: How will the app access and analyze existing songs for the “song inspiration” feature? Is there a reliable API or database available, and are there licensing or copyright considerations?
+Chord Voicing Accuracy: Ensuring the generated voicings and fingerings are both authentic to Jazz Funk and playable for users of varying skill levels.
+User Experience: Will users find the interface intuitive, especially when switching between emotion-based and song-based generation?
+PDF Formatting: Can the lead sheet output be formatted clearly and consistently for both keyboard and guitar users?
+Genre Authenticity: How will the app ensure that all generated progressions and structures truly reflect Jazz Funk conventions and not generic jazz or funk?
+Scalability: If the app becomes popular, are there any technical or cost limitations to scaling up?
+Feedback Loop: How will user feedback be collected and incorporated into future updates?
+Resource Availability: Do we have access to the necessary music theory expertise and development resources to deliver all features as described?
