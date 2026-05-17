@@ -1,6 +1,8 @@
 node_modules/
 .next/
+out/
 *.log
+github-actions-log.txt
 .DS_Store
 .env
 .env.local
